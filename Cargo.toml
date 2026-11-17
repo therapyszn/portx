@@ -1,0 +1,15 @@
+[package]
+name = "portx"
+version = "0.1.0"
+edition = "2021"
+authors = ["modyb"]
+description = "Fast CLI to find, inspect, and free locked local ports"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+sysinfo = "0.30"
+netstat2 = "0.9"
+anyhow = "1.0"
+comfy-table = "7.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
